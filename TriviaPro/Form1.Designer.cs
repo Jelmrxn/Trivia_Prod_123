@@ -145,7 +145,7 @@
             // 
             // btnNuevaPartida
             // 
-            this.btnNuevaPartida.Location = new System.Drawing.Point(454, 440);
+            this.btnNuevaPartida.Location = new System.Drawing.Point(574, 440);
             this.btnNuevaPartida.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNuevaPartida.Name = "btnNuevaPartida";
             this.btnNuevaPartida.Size = new System.Drawing.Size(95, 36);
