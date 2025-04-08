@@ -19,7 +19,7 @@ namespace TriviaPro
                 case "Cultura General":
                     return new CulturaGeneralFactory(); 
 
-                // Puedes añadir Historia, Cultura General más adelante
+                // Puedes añadir Historia, Cultura General más adela
                 default:
                     throw new ArgumentException("Categoría no válida");
             }
