@@ -17,7 +17,7 @@ namespace TriviaPro
                 case "Historia":
                     return new HistoriaFactory();
                 case "Cultura General":
-                    return new CulturaGeneralFactory(); //regresa 
+                    return new CulturaGeneralFactory(); 
 
                 // Puedes añadir Historia, Cultura General más adelante
                 default:
