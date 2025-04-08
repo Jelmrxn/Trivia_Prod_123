@@ -26,7 +26,7 @@ namespace TriviaPro
             nivelActual = nivel;
         }
 
-        public Pregunta ObtenerSiguientePregunta()
+        public Pregunta ObtenerSiguientePregunta() // obtener pregunta 
         {
             if (preguntasRespondidas >= preguntasDisponibles.Count)
                 return null;
