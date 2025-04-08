@@ -137,19 +137,27 @@ namespace TriviaPro
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // Limpiar y cargar opciones de categoría
             cmbCategoria.Items.Clear();
             cmbCategoria.Items.Add("Ciencia");
             cmbCategoria.Items.Add("Historia");
             cmbCategoria.Items.Add("Cultura General");
 
+            // Limpiar y cargar opciones de nivel de dificultad
             cmbNivel.Items.Clear();
             cmbNivel.Items.Add("Fácil");
             cmbNivel.Items.Add("Medio");
             cmbNivel.Items.Add("Difícil");
 
-            cmbCategoria.SelectedIndex = 0;
-            cmbNivel.SelectedIndex = 0;
+            // Dejar sin seleccionar
+            cmbCategoria.SelectedIndex = -1;
+            cmbNivel.SelectedIndex = -1;
 
+            // Mostrar textos por defecto (opcional pero útil visualmente)
+           // cmbCategoria.Text = "Seleccione categoría";
+           // cmbNivel.Text = "Seleccione nivel de dificultad";
+
+            // Resto del código que ya funciona
             lblPuntaje.Text = "Puntaje: 0";
             lblPreguntasRestantes.Text = "Faltan: 15";
             lblPregunta.Text = "Presiona 'Nueva Partida' para comenzar";
