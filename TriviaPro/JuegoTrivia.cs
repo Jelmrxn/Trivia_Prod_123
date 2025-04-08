@@ -35,7 +35,7 @@ namespace TriviaPro
             return preguntaActual;
         }
 
-        public bool Responder(string respuestaUsuario)// respuesta 
+        public bool Responder(string respuestaUsuario)
         {
             if (preguntaActual == null)
                 return false;
@@ -59,7 +59,7 @@ namespace TriviaPro
             }
             else
             {
-                jugador.Puntaje = Math.Max(0, jugador.Puntaje - 2); // puntaje 
+                jugador.Puntaje = Math.Max(0, jugador.Puntaje - 2); // puntaje total
             }
 
             preguntasRespondidas++; // Mover este incremento aquí
