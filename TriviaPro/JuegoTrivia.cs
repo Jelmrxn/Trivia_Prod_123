@@ -49,7 +49,7 @@ namespace TriviaPro
             else if (correcta)
             {
                 int puntos = 0;
-                switch (preguntaActual.Nivel.ToLower())
+                switch (preguntaActual.Nivel.ToLower()) //
                 {
                     case "fácil": puntos = 5; break;
                     case "medio": puntos = 10; break;
