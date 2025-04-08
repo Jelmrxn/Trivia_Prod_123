@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TriviaPro
 {
-    public interface IPreguntaFactory
+    public interface IPreguntaFactory // preguntaf  
     {
         List<Pregunta> CrearPreguntas(string nivel);
     }
