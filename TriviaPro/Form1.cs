@@ -189,6 +189,9 @@ namespace TriviaPro
             MarcarRespuesta(seleccion);
         }
 
+        private void lstHistorial_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }

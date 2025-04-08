@@ -70,6 +70,7 @@ namespace TriviaPro
         public int ObtenerPuntaje()
         {
             return jugador.Puntaje;
+            
         }
 
         public string ObtenerNivel()
