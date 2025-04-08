@@ -131,7 +131,7 @@ namespace TriviaPro
                 return;
             }
 
-            MostrarSiguientePregunta();
+            MostrarSiguientePregunta();// h
         }
 
 
