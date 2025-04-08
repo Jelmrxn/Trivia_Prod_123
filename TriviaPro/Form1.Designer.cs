@@ -123,7 +123,7 @@
             // rbtnOpcion3
             // 
             this.rbtnOpcion3.AutoSize = true;
-            this.rbtnOpcion3.Location = new System.Drawing.Point(208, 264);
+            this.rbtnOpcion3.Location = new System.Drawing.Point(98, 297);
             this.rbtnOpcion3.Margin = new System.Windows.Forms.Padding(2);
             this.rbtnOpcion3.Name = "rbtnOpcion3";
             this.rbtnOpcion3.Size = new System.Drawing.Size(85, 17);
