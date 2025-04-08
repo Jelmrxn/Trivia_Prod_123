@@ -21,7 +21,7 @@ namespace TriviaPro
 
                 // Puedes añadir Historia, Cultura General más adelante 
                 default:
-                    throw new ArgumentException("Categoría no válida");
+                    throw new ArgumentException("Categoría no válida");// exebcion
             }
         }
     }
