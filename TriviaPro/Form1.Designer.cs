@@ -52,7 +52,7 @@
             // 
             this.cmbCategoria.FormattingEnabled = true;
             this.cmbCategoria.Location = new System.Drawing.Point(239, 111);
-            this.cmbCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(146, 21);
             this.cmbCategoria.TabIndex = 0;
@@ -71,7 +71,7 @@
             // 
             this.cmbNivel.FormattingEnabled = true;
             this.cmbNivel.Location = new System.Drawing.Point(239, 155);
-            this.cmbNivel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbNivel.Margin = new System.Windows.Forms.Padding(2);
             this.cmbNivel.Name = "cmbNivel";
             this.cmbNivel.Size = new System.Drawing.Size(146, 21);
             this.cmbNivel.TabIndex = 2;
@@ -100,7 +100,7 @@
             // 
             this.rbtnOpcion1.AutoSize = true;
             this.rbtnOpcion1.Location = new System.Drawing.Point(98, 228);
-            this.rbtnOpcion1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtnOpcion1.Margin = new System.Windows.Forms.Padding(2);
             this.rbtnOpcion1.Name = "rbtnOpcion1";
             this.rbtnOpcion1.Size = new System.Drawing.Size(85, 17);
             this.rbtnOpcion1.TabIndex = 5;
@@ -112,7 +112,7 @@
             // 
             this.rbtnOpcion2.AutoSize = true;
             this.rbtnOpcion2.Location = new System.Drawing.Point(98, 264);
-            this.rbtnOpcion2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtnOpcion2.Margin = new System.Windows.Forms.Padding(2);
             this.rbtnOpcion2.Name = "rbtnOpcion2";
             this.rbtnOpcion2.Size = new System.Drawing.Size(85, 17);
             this.rbtnOpcion2.TabIndex = 6;
@@ -123,8 +123,8 @@
             // rbtnOpcion3
             // 
             this.rbtnOpcion3.AutoSize = true;
-            this.rbtnOpcion3.Location = new System.Drawing.Point(98, 297);
-            this.rbtnOpcion3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtnOpcion3.Location = new System.Drawing.Point(208, 264);
+            this.rbtnOpcion3.Margin = new System.Windows.Forms.Padding(2);
             this.rbtnOpcion3.Name = "rbtnOpcion3";
             this.rbtnOpcion3.Size = new System.Drawing.Size(85, 17);
             this.rbtnOpcion3.TabIndex = 7;
@@ -135,7 +135,7 @@
             // btnResponder
             // 
             this.btnResponder.Location = new System.Drawing.Point(157, 355);
-            this.btnResponder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnResponder.Margin = new System.Windows.Forms.Padding(2);
             this.btnResponder.Name = "btnResponder";
             this.btnResponder.Size = new System.Drawing.Size(95, 36);
             this.btnResponder.TabIndex = 8;
@@ -146,7 +146,7 @@
             // btnNuevaPartida
             // 
             this.btnNuevaPartida.Location = new System.Drawing.Point(574, 440);
-            this.btnNuevaPartida.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNuevaPartida.Margin = new System.Windows.Forms.Padding(2);
             this.btnNuevaPartida.Name = "btnNuevaPartida";
             this.btnNuevaPartida.Size = new System.Drawing.Size(95, 36);
             this.btnNuevaPartida.TabIndex = 9;
@@ -157,7 +157,7 @@
             // progressTiempo
             // 
             this.progressTiempo.Location = new System.Drawing.Point(157, 12);
-            this.progressTiempo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressTiempo.Margin = new System.Windows.Forms.Padding(2);
             this.progressTiempo.Name = "progressTiempo";
             this.progressTiempo.Size = new System.Drawing.Size(738, 22);
             this.progressTiempo.TabIndex = 10;
@@ -166,7 +166,7 @@
             // 
             this.lstHistorial.FormattingEnabled = true;
             this.lstHistorial.Location = new System.Drawing.Point(454, 129);
-            this.lstHistorial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstHistorial.Margin = new System.Windows.Forms.Padding(2);
             this.lstHistorial.Name = "lstHistorial";
             this.lstHistorial.Size = new System.Drawing.Size(465, 277);
             this.lstHistorial.TabIndex = 11;
@@ -234,7 +234,7 @@
             this.Controls.Add(this.cmbNivel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbCategoria);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
