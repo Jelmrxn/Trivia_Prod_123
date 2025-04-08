@@ -59,7 +59,7 @@ namespace TriviaPro
             }
             else
             {
-                jugador.Puntaje = Math.Max(0, jugador.Puntaje - 2); // puntaje total
+                jugador.Puntaje = Math.Max(0, jugador.Puntaje - 2); // puntaje 
             }
 
             preguntasRespondidas++; // Mover este incremento aquí
